@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- stylesheet -->
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/vendor/fontawesome.css" />
+    <link rel="stylesheet" href="css/vendor/brands.css" />
+    <link rel="stylesheet" href="css/vendor/regular.css" />
+    <link rel="stylesheet" href="css/vendor/solid.css" />
+    <link rel="stylesheet" href="css/vendor/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&amp;family=Julee&amp;family=Roboto:wght@500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <title>Onirigi</title>
+    <link rel="icon" href="image/icon.png" />
+  </head>
+
+  <body>
+    <!-- Script javascript -->
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- header -->
+
+    <!-- Sticky Header -->
+    <section class="r-section p-0 sticky-top bg-white shadow">
+      <div class="r-container p-0">
+        <!-- Navmenu -->
+        <nav class="navbar navbar-expand-lg w-100 py-0">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="image/logo.png" class="img-site-logo" alt="" srcset=""
+            /></a>
+            <button
+              class="navbar-toggler nav-btn"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars icons-close"></i>
+              <i class="fa-solid fa-xmark icons-open"></i>
+            </button>
+            <div
+              class="collapse navbar-collapse flex-grow-0"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    href="#secaoSobre"
+                    role="button"
+                    aria-expanded="false"
+                  >
+                    Sobre
+                  </a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    href="#sectionCardapio"
+                    role="button"
+                    aria-expanded="false"
+                  >
+                    Cardápio
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#secaoContato" class="nav-link">Contato</a>
+                </li>
+              </ul>
+            </div>
+            <div class="element social">
+              <div class="social-item">
+                <a class="color-icon_socialmedia" href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </div>
+              <div class="social-item">
+                <a class="color-icon_socialmedia" href="#">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </div>
+              <div class="social-item">
+                <a class="color-icon_socialmedia" href="#">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+              <div class="social-item">
+                <a class="color-icon_socialmedia" href="#">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- End of Header -->
+
+    <!-- main body -->
+    <main>
+      <!-- Section 1 -->
+      <section
+        class="r-section image-infinite-bg"
+        data-images='["image/slide1.jpg", "image/slide2.jpg", "image/slide3.jpg"]'
+      >
+        <div class="r-container d-flex justify-content-center">
+          <div class="image-overlay"></div>
+          <div
+            class="d-flex flex-column justify-content-center text-center gap-3"
+            style="max-width: 768px; z-index: 22"
+          >
+            <div class="container mb-4">
+              <h5 class="text-1 color-1">
+                Sabor autêntico do Japão em cada prato.
+              </h5>
+            </div>
+            <div class="container mb-4">
+              <h1 class="text-title color-white">
+                Delicias orientais tradicionais
+              </h1>
+            </div>
+            <div class="container mb-2">
+              <div class="r-divider mx-auto">
+                <div class="divider-icon">
+                  <i class="fa-solid fa-torii-gate"></i>
+                </div>
+              </div>
+            </div>
+            <div class="container mb-4">
+              <span class="image_slideshow_description"
+                >No nosso restaurante, a arte de cozinhar se funde com a cultura
+                japonesa para criar momentos memoráveis à mesa.</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="r-section position-relative" id="secaoSobre">
+        <div class="r-container">
+          <div class="discover-section-container py-5 w-100">
+            <div
+              class="container d-flex flex-column py-5 px-3 position-relative"
+            >
+              <div class="union-bg" style="left: -100px">
+                <img src="image/planoFundo.png" alt="" />
+              </div>
+              <h5 class="text-1 color-1">Descubra</h5>
+              <h3 class="text-title">
+                Sabores incriveis do Japão com Receitas Especiais
+              </h3>
+              <div class="container mb-2">
+                <div class="r-divider">
+                  <div class="divider-icon">
+                    <i class="fa-solid fa-torii-gate"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="text-1 fs-5">
+                “Nosso restaurante é uma experiência gastronômica autêntica. Com
+                pratos cuidadosamente preparados por chefs especializados,
+                oferecemos uma viagem ao Japão em cada mordida. Do sushi fresco
+                ao saboroso tempura, cada prato reflete a essência da culinária
+                japonesa em um ambiente acolhedor e moderno. Venha saborear o
+                melhor do Japão aqui”.
+              </p>
+              <p class="color-secondary">
+                Na nossa cozinha, cada prato é uma expressão da autêntica
+                culinária japonesa. Aqui, honramos tradições antigas com um
+                toque moderno. Venha experimentar a magia do Japão em cada
+                garfada.
+              </p>
+              <h5 class="text-1 color-1">Eichiro Oda, Chefe principal</h5>
+            </div>
+            <div class="container d-flex flex-column">
+              <div class="img-container">
+                <img src="image/img1.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="img-container img-border img-margin-layout-1">
+                <img src="image/img2.jpg" class="img-fluid" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3 -->
+      <section
+        class="r-section section-3 position-relative"
+        id="sectionCardapio"
+      >
+        <div
+          class="r-container d-flex flex-column justify-content-center text-center position-relative"
+          style="z-index: 2"
+        >
+          <h5 class="text-1 color-1">Aproveite nossos pratos</h5>
+          <div class="container mb-2">
+            <div class="r-divider mx-auto">
+              <div class="divider-icon">
+                <i class="fa-solid fa-torii-gate"></i>
+              </div>
+            </div>
+          </div>
+          <h3 class="text-title color-white">
+            Gastronomia de qualidade com toque profissional
+          </h3>
+        </div>
+        <div class="image-overlay"></div>
+      </section>
+
+      <!-- Section 4 -->
+      <section class="r-section section-4 overflow-hidden">
+        <div class="r-container">
+          <div class="menu_section d-flex gap-3">
+            <div class="container menu-image gap-3">
+              <div class="d-flex flex-column gap-3">
+                <div
+                  class="img-container img-border position-relative img-hover"
+                >
+                  <img src="image/udon.jpg" class="img-fluid img-menu" alt="" />
+                  <h4
+                    class="position-absolute bottom-0 text-center color-white w-100 text-1"
+                    style="font-size: 36px"
+                  >
+                    Udon
+                  </h4>
+                </div>
+                <div
+                  class="img-container img-border position-relative img-hover"
+                >
+                  <img
+                    src="image/tempura.jpg"
+                    class="img-fluid img-menu"
+                    alt=""
+                  />
+                  <h4
+                    class="position-absolute bottom-0 text-center color-white w-100 text-1"
+                    style="font-size: 36px"
+                  >
+                    Tempura
+                  </h4>
+                </div>
+              </div>
+              <div class="d-flex flex-column gap-3 menu-layout">
+                <div
+                  class="img-container img-border position-relative img-hover"
+                >
+                  <img
+                    src="image/sushi.jpg"
+                    class="img-fluid img-menu"
+                    alt=""
+                  />
+                  <h4
+                    class="position-absolute bottom-0 text-center color-white w-100 text-1"
+                    style="font-size: 36px"
+                  >
+                    Sushi
+                  </h4>
+                </div>
+                <div
+                  class="img-container img-border position-relative img-hover"
+                >
+                  <img
+                    src="image/katsu.jpg"
+                    class="img-fluid img-menu"
+                    alt=""
+                  />
+                  <h4
+                    class="position-absolute bottom-0 text-center color-white w-100 text-1"
+                    style="font-size: 36px"
+                  >
+                    Katsu
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="container d-flex flex-column gap-2 position-relative">
+              <div class="union-bg" style="right: -100px">
+                <img src="image/planoFundo2.png" alt="" />
+              </div>
+              <h5 class="text-1 color-1">Mais pedidos</h5>
+              <h3 class="text-title">
+                Variedade de sabores da culinária japonesa
+              </h3>
+              <div class="container mb-3 px-0">
+                <div class="r-divider">
+                  <div class="divider-icon">
+                    <i class="fa-solid fa-torii-gate"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="container d-flex flex-column w-100 mt-3 px-0">
+                <div class="menu-container d-flex flex-row mb-4">
+                  <div class="menu w-100">
+                    <h5 class="text-1">Udon</h5>
+                    <span
+                      >macarrão ao molho de soja, com camarão e legumes</span
+                    >
+                  </div>
+                </div>
+                <div class="menu-container d-flex flex-row mb-4">
+                  <div class="menu w-100">
+                    <h5 class="text-1">Tempura</h5>
+                    <span>feito de vegetais ou frutos do mar empanados.</span>
+                  </div>
+                </div>
+                <div class="menu-container d-flex flex-row mb-4">
+                  <div class="menu w-100">
+                    <h5 class="text-1">Katsu Curry</h5>
+                    <span
+                      >Katsu curry é um prato japonês com carne empanada
+                      acompanhado com molho curry</span
+                    >
+                  </div>
+                </div>
+                <div class="menu-container d-flex flex-row mb-4">
+                  <div class="menu w-100">
+                    <h5 class="text-1">Sushi</h5>
+                    <span
+                      >feito de arroz, peixe cru ou frutos do mar, algas e
+                      outros ingredientes</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="container button-menu">
+                <a type="button" href="cardapio.html">Veja o Cardapio</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 5 -->
+      <section class="r-section section-5 position-relative">
+        <div
+          class="r-container d-flex flex-column justify-content-center text-center position-relative"
+          style="z-index: 2"
+        >
+          <h5 class="text-1 color-1">Reservas de mesa</h5>
+          <div class="container mb-2 espacador">
+            <div class="r-divider mx-auto">
+              <div class="divider-icon">
+                <i class="fa-solid fa-torii-gate"></i>
+              </div>
+            </div>
+          </div>
+          <h3 class="text-title color-white">Para eventos & encontros</h3>
+          <p class="color-white">
+            Reserve agora e garanta seu lugar em nosso restaurante, onde cada
+            prato é uma experiência inesquecível!
+          </p>
+          <div class="container">
+            <a type="button" href="#">Reserve já</a>
+          </div>
+        </div>
+        <div class="image-overlay"></div>
+      </section>
+
+      <!-- Section 6 -->
+      <section class="r-section testimonials-section position-relative">
+        <div class="r-container d-flex flex-column gap-3">
+          <div class="union-bg top-50 start-50 translate-middle">
+            <img src="image/union.png" alt="" />
+          </div>
+          <h5 class="text-1 color-1 text-center">Feedbacks</h5>
+          <h3 class="text-title text-center">
+            Veja a opinião de nossos clientes
+          </h3>
+          <div class="container mb-2 espacador">
+            <div class="r-divider mx-auto">
+              <div class="divider-icon">
+                <i class="fa-solid fa-torii-gate"></i>
+              </div>
+            </div>
+          </div>
+          <div class="container testimonials-container">
+            <div class="container w-100 d-flex flex-column">
+              <p class="text-1 mb-3 testimonial-review">
+                "Minha visita ao restaurante japonês foi incrível. A atmosfera
+                acolhedora e autêntica, juntamente com a qualidade dos
+                ingredientes e o atendimento impecável, tornaram a experiência
+                inesquecível. Com certeza voltarei para explorar mais do menu
+                dessa autêntica culinária japonesa."
+              </p>
+              <h4 class="text-1 color-red m-0">Tony Doe</h4>
+              <span class="text-1">influencer gastronômico</span>
+              <ul class="rating p-0">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </ul>
+            </div>
+            <div class="container w-100 d-flex flex-column">
+              <p class="text-1 mb-3 testimonial-review">
+                "Este restaurante é uma verdadeira descoberta culinária! Os
+                sabores autênticos da culinária japonesa são destacados em cada
+                prato, e a qualidade dos ingredientes é notável. A equipe
+                atenciosa e o ambiente acolhedor tornam a refeição ainda mais
+                agradável. Uma experiência gastronômica que vale a pena explorar
+                e que certamente irei repetir."
+              </p>
+              <h4 class="text-1 color-red m-0">Jesicca Feb</h4>
+              <span class="text-1">Critica culinária</span>
+              <ul class="rating p-0">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 7 -->
+      <section class="r-section overflow-hidden p-0 mb-3">
+        <div
+          class="swiper-container swiper-container-initialized swiper-container-horizontal"
+          dir="rtl"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="swiper-slide-image img-fluid img-swiper_no-border"
+                src="image/image_slide1.jpg"
+                alt="img1"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swiper-slide-image img-fluid img-swiper_no-border"
+                src="image/image_slide2.jpg"
+                alt="img2"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swiper-slide-image img-fluid img-swiper_no-border"
+                src="image/image_slide3.jpg"
+                alt="img3"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swiper-slide-image img-fluid img-swiper_no-border"
+                src="image/image_slide4.jpg"
+                alt="img4"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swiper-slide-image img-fluid img-swiper_no-border"
+                src="image/image_slide1.jpg"
+                alt="img5"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swiper-slide-image img-fluid img-swiper_no-border"
+                src="image/image_slide2.jpg"
+                alt="img6"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swiper-slide-image img-fluid img-swiper_no-border"
+                src="image/image_slide3.jpg"
+                alt="img7"
+              />
+            </div>
+          </div>
+          <span
+            class="swiper-notification"
+            aria-live="assertive"
+            aria-atomic="true"
+          ></span>
+        </div>
+      </section>
+
+      <!-- Section 8 -->
+      <section class="r-section position-relative">
+        <div class="union-bg" style="left: -100px">
+          <img src="image/union.png" alt="" />
+        </div>
+        <div class="r-container">
+          <div
+            class="d-flex flex-column text-center w-100 justify-content-center"
+          >
+            <h5 class="text-1 color-1">Confira nossas novidades</h5>
+            <h3 class="text-title">Nosso Blog & Eventos</h3>
+            <div class="container mb-2">
+              <div class="r-divider mx-auto">
+                <div class="divider-icon">
+                  <i class="fa-solid fa-torii-gate"></i>
+                </div>
+              </div>
+            </div>
+            <div class="container blog-grid my-3">
+              <div class="card border-0 shadow rounded-4 blog-container">
+                <div class="position-relative">
+                  <div class="blog-image">
+                    <img src="image/blog1.jpg" class="card-img-top" alt="" />
+                  </div>
+                  <div class="floating-date">
+                    <span class="d-flex flex-column">
+                      <strong> 29 </strong>
+                      Mar
+                    </span>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-title">
+                    Como cozinhar Ramen em 7 passos
+                  </h5>
+                  <p class="card-text">
+                    Aqui você vai aprender como preparamos um prato que é
+                    referência na culinária japonesa da forma mais fácil e
+                    didática possivel. Não perca tempo, faça sua receita no
+                    conforto de sua casa!
+                  </p>
+                  <a type="button" href="#" class="">Saiba mais</a>
+                </div>
+              </div>
+              <div class="card border-0 shadow rounded-4 blog-container">
+                <div class="position-relative">
+                  <div class="blog-image">
+                    <img src="image/blog2.jpg" class="card-img-top" alt="" />
+                  </div>
+                  <div class="floating-date">
+                    <span class="d-flex flex-column">
+                      <strong> 29 </strong>
+                      Mar
+                    </span>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-title">
+                    Descubra 8 Formas de Adaptar sua dieta sem sacrificios
+                  </h5>
+                  <p class="card-text">
+                    Explore nosso guia prático e descubra como fazer ajustes
+                    inteligentes na sua dieta sem abrir mão do prazer à
+                    mesa.Deixe o sacrifício de lado e abrace uma vida mais
+                    saudável hoje mesmo!
+                  </p>
+                  <a type="button" href="#" class="">Read More</a>
+                </div>
+              </div>
+              <div class="card border-0 shadow rounded-4 blog-container">
+                <div class="position-relative">
+                  <div class="blog-image">
+                    <img src="image/blog3.jpg" class="card-img-top" alt="" />
+                  </div>
+                  <div class="floating-date">
+                    <span class="d-flex flex-column">
+                      <strong> 14 </strong>
+                      Jun
+                    </span>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-title">
+                    Curiosidades sobre a culinária japonesa
+                  </h5>
+                  <p class="card-text">
+                    Explore o fascinante mundo da culinária japonesa com nossas
+                    'Curiosidades sobre a Culinária Japonesa'. Descubra segredos
+                    e tradições culinárias únicas que tornam a comida japonesa
+                    tão especial.
+                  </p>
+                  <a type="button" href="#" class="">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <section class="r-section footer position-relative" id="secaoContato">
+        <div
+          class="r-container d-flex flex-column justify-content-center text-center position-relative"
+          style="z-index: 2; max-width: 728px"
+        >
+          <div class="mb-3">
+            <img src="image/logo.png" alt="" />
+          </div>
+          <div class="mb-3">
+            <span
+              >Delicie-se com a autêntica culinária japonesa, onde cada prato é
+              uma obra de arte no seu prato.
+            </span>
+          </div>
+        </div>
+        <div class="image-overlay"></div>
+      </section>
+      <section class="r-section bg-black p-0">
+        <div class="r-container p-0 header">
+          <div class="element header-info">
+            <div class="icons">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="description">
+              <h3>Local</h3>
+              <span>Rua das Flores, 123 Cidade do Vale, SP</span>
+            </div>
+          </div>
+          <div class="element header-info">
+            <div class="icons">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="description">
+              <h3>Telefone</h3>
+              <span>62+ 7133 4400</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="r-section bg-black p-0">
+        <div
+          class="r-container py-4 w-100 justify-content-center"
+          style="color: white"
+        >
+          2023 © Onirigi / Ramen Wariror. Todos os direitos reservados
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

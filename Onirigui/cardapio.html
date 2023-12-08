@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- stylesheet -->
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/vendor/fontawesome.css" />
+    <link rel="stylesheet" href="css/vendor/brands.css" />
+    <link rel="stylesheet" href="css/vendor/regular.css" />
+    <link rel="stylesheet" href="css/vendor/solid.css" />
+    <link rel="stylesheet" href="css/vendor/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/Cardapio.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&amp;family=Julee&amp;family=Roboto:wght@500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <title>Onirigi - Cardapio</title>
+    <link rel="icon" href="image/icon.png" />
+  </head>
+
+  <body>
+    <!-- Script javascript -->
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- header -->
+
+    <!-- Sticky Header -->
+    <section class="r-section p-0 sticky-top bg-white shadow">
+      <div class="r-container p-0">
+        <!-- Navmenu -->
+        <nav class="navbar navbar-expand-lg w-100 py-0">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="image/logo.png" class="img-site-logo" alt="" srcset=""
+            /></a>
+            <button
+              class="navbar-toggler nav-btn"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars icons-close"></i>
+              <i class="fa-solid fa-xmark icons-open"></i>
+            </button>
+            <div
+              class="collapse navbar-collapse flex-grow-0"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="index.html"
+                    role="button"
+                    aria-expanded="false"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    href="#secaoSobre"
+                    role="button"
+                    aria-expanded="false"
+                  >
+                    Sobre
+                  </a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    href="#sectionCardapio"
+                    role="button"
+                    aria-expanded="false"
+                  >
+                    Cardápio
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#secaoContato" class="nav-link">Contato</a>
+                </li>
+              </ul>
+            </div>
+            <div class="element social">
+              <div class="social-item">
+                <a class="color-icon_socialmedia" href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </div>
+              <div class="social-item">
+                <a class="color-icon_socialmedia" href="#">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </div>
+              <div class="social-item">
+                <a class="color-icon_socialmedia" href="#">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+              <div class="social-item">
+                <a class="color-icon_socialmedia" href="#">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- End of Header -->
+
+    <main>
+      <section
+        class="r-section image-infinite-bg"
+        data-images='["image/slide1.jpg", "image/slide2.jpg", "image/slide3.jpg"]'
+      >
+        <div class="r-container d-flex justify-content-center">
+          <div class="image-overlay"></div>
+          <div
+            class="d-flex flex-column justify-content-center text-center gap-3"
+            style="max-width: 768px; z-index: 22"
+          >
+            <div class="container mb-4">
+              <h1 class="text-title color-white">
+                Confira nossos itens do cardapio
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="r-section position-relative">
+        <div>
+          <h3 class="text-title text-center">Lamens</h3>
+          <div class="container mb-2 espacador">
+            <div class="r-divider mx-auto">
+              <div class="divider-icon">
+                <i class="fa-solid fa-torii-gate"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="secao-lamen">
+          <article class="card-prato">
+            <img
+              class="img-fluid"
+              src="image/lamen simples.jpg"
+              width="200"
+              height="200"
+              alt="lamen 1"
+            />
+            <h5 class="color-red">Lamen Classico</h5>
+            <p class="card-text">
+              Macarrão em caldo rico de carne de porco e frango, com cebolinha,
+              broto de bambu, carne de porco fatiada e ovo cozido.
+            </p>
+            <p class="card-preco">24,00R$</p>
+          </article>
+          <article class="card-prato">
+            <img
+              class="img-fluid"
+              src="image/lamen de frango.jpg"
+              width="200"
+              height="200"
+              alt="lamen 1"
+            />
+            <h5 class="color-red">Lamen de frango</h5>
+            <p class="card-text">
+              Macarrão em caldo leve de frango, com cebolinha, frango grelhado,
+              broto de bambu e ovo cozido.
+            </p>
+            <p class="card-preco">26,00R$</p>
+          </article>
+          <article class="card-prato">
+            <img
+              class="img-fluid"
+              src="image/carne de porco.jpg"
+              width="200"
+              height="200"
+              alt="lamen 1"
+            />
+            <h5 class="color-red">Lamen de porco</h5>
+            <p class="card-text">
+              Macarrão em caldo espesso de carne de porco, com cebolinha, broto
+              de bambu, carne de porco desfiada e ovo marinado.
+            </p>
+            <p class="card-preco">26,00R$</p>
+          </article>
+          <article class="card-prato">
+            <img
+              class="img-fluid"
+              src="image/lamen1.jpg"
+              width="200"
+              height="200"
+              alt="lamen 1"
+            />
+            <h5 class="color-red">Lamen Vegetariano</h5>
+            <p class="card-text">
+              Macarrão em caldo de legumes, com cebolinha, broto de bambu,
+              cogumelos, espinafre e tofu.
+            </p>
+            <p class="card-preco">28,00R$</p>
+          </article>
+          <article class="card-prato">
+            <img
+              class="img-fluid"
+              src="image/lamen de camarão.png"
+              width="200"
+              height="200"
+              alt="lamen 1"
+            />
+            <h5 class="color-red">Lamen de camarão</h5>
+            <p class="card-text">
+              Macarrão em caldo picante de camarão, com cebolinha, broto de
+              bambu, camarão suculento e ovo cozido.
+            </p>
+            <p class="card-preco">31,00R$</p>
+          </article>
+        </div>
+      </section>
+      <section class="r-section position-relative">
+        <div>
+          <h3 class="text-title text-center">Lamens</h3>
+          <div class="container mb-2 espacador">
+            <div class="r-divider mx-auto">
+              <div class="divider-icon">
+                <i class="fa-solid fa-torii-gate"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="secao-lamen">
+          <article class="card-prato">
+            <img
+              class="img-fluid"
+              src="image/lamen1.jpg"
+              width="200"
+              height="200"
+              alt="lamen 1"
+            />
+            <h5 class="color-red">Lamen Padrao</h5>
+            <p class="card-text">
+              1 fatia de carne suína cozida Molho especial da casa, menma,
+              moyashi, ovo cozido, cebolinha e nori
+            </p>
+            <p class="card-preco">33,00R$</p>
+          </article>
+          <article class="card-prato">
+            <img
+              class="img-fluid"
+              src="image/lamen1.jpg"
+              width="200"
+              height="200"
+              alt="lamen 1"
+            />
+            <h5 class="color-red">Lamen Padrao</h5>
+            <p class="card-text">
+              1 fatia de carne suína cozida Molho especial da casa, menma,
+              moyashi, ovo cozido, cebolinha e nori
+            </p>
+            <p class="card-preco">33,00R$</p>
+          </article>
+          <article class="card-prato">
+            <img
+              class="img-fluid"
+              src="image/lamen1.jpg"
+              width="200"
+              height="200"
+              alt="lamen 1"
+            />
+            <h5 class="color-red">Lamen Padrao</h5>
+            <p class="card-text">
+              1 fatia de carne suína cozida Molho especial da casa, menma,
+              moyashi, ovo cozido, cebolinha e nori
+            </p>
+            <p class="card-preco">33,00R$</p>
+          </article>
+          <article class="card-prato">
+            <img
+              class="img-fluid"
+              src="image/lamen1.jpg"
+              width="200"
+              height="200"
+              alt="lamen 1"
+            />
+            <h5 class="color-red">Lamen Padrao</h5>
+            <p class="card-text">
+              1 fatia de carne suína cozida Molho especial da casa, menma,
+              moyashi, ovo cozido, cebolinha e nori
+            </p>
+            <p class="card-preco">33,00R$</p>
+          </article>
+          <article class="card-prato">
+            <img
+              class="img-fluid"
+              src="image/lamen1.jpg"
+              width="200"
+              height="200"
+              alt="lamen 1"
+            />
+            <h5 class="color-red">Lamen Padrao</h5>
+            <p class="card-text">
+              1 fatia de carne suína cozida Molho especial da casa, menma,
+              moyashi, ovo cozido, cebolinha e nori
+            </p>
+            <p class="card-preco">33,00R$</p>
+          </article>
+        </div>
+      </section>
+      <section class="r-section position-relative">
+        <div>
+          <h3 class="text-title text-center">Lamens</h3>
+          <div class="container mb-2 espacador">
+            <div class="r-divider mx-auto">
+              <div class="divider-icon">
+                <i class="fa-solid fa-torii-gate"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="secao-lamen">
+          <article class="card-prato">
+            <img
+              class="img-fluid"
+              src="image/lamen1.jpg"
+              width="200"
+              height="200"
+              alt="lamen 1"
+            />
+            <h5 class="color-red">Lamen Padrao</h5>
+            <p class="card-text">
+              1 fatia de carne suína cozida Molho especial da casa, menma,
+              moyashi, ovo cozido, cebolinha e nori
+            </p>
+            <p class="card-preco">33,00R$</p>
+          </article>
+          <article class="card-prato">
+            <img
+              class="img-fluid"
+              src="image/lamen1.jpg"
+              width="200"
+              height="200"
+              alt="lamen 1"
+            />
+            <h5 class="color-red">Lamen Padrao</h5>
+            <p class="card-text">
+              1 fatia de carne suína cozida Molho especial da casa, menma,
+              moyashi, ovo cozido, cebolinha e nori
+            </p>
+            <p class="card-preco">33,00R$</p>
+          </article>
+          <article class="card-prato">
+            <img
+              class="img-fluid"
+              src="image/lamen1.jpg"
+              width="200"
+              height="200"
+              alt="lamen 1"
+            />
+            <h5 class="color-red">Lamen Padrao</h5>
+            <p class="card-text">
+              1 fatia de carne suína cozida Molho especial da casa, menma,
+              moyashi, ovo cozido, cebolinha e nori
+            </p>
+            <p class="card-preco">33,00R$</p>
+          </article>
+          <article class="card-prato">
+            <img
+              class="img-fluid"
+              src="image/lamen1.jpg"
+              width="200"
+              height="200"
+              alt="lamen 1"
+            />
+            <h5 class="color-red">Lamen Padrao</h5>
+            <p class="card-text">
+              1 fatia de carne suína cozida Molho especial da casa, menma,
+              moyashi, ovo cozido, cebolinha e nori
+            </p>
+            <p class="card-preco">33,00R$</p>
+          </article>
+          <article class="card-prato">
+            <img
+              class="img-fluid"
+              src="image/lamen1.jpg"
+              width="200"
+              height="200"
+              alt="lamen 1"
+            />
+            <h5 class="color-red">Lamen Padrao</h5>
+            <p class="card-text">
+              1 fatia de carne suína cozida Molho especial da casa, menma,
+              moyashi, ovo cozido, cebolinha e nori
+            </p>
+            <p class="card-preco">33,00R$</p>
+          </article>
+          <article class="card-prato">
+            <img
+              class="img-fluid"
+              src="image/lamen1.jpg"
+              width="200"
+              height="200"
+              alt="lamen 1"
+            />
+            <h5 class="color-red">Lamen Padrao</h5>
+            <p class="card-text">
+              1 fatia de carne suína cozida Molho especial da casa, menma,
+              moyashi, ovo cozido, cebolinha e nori
+            </p>
+            <p class="card-preco">33,00R$</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <section class="r-section footer position-relative" id="secaoContato">
+        <div
+          class="r-container d-flex flex-column justify-content-center text-center position-relative"
+          style="z-index: 2; max-width: 728px"
+        >
+          <div class="mb-3">
+            <img src="image/logo.png" alt="" />
+          </div>
+          <div class="mb-3">
+            <span
+              >Delicie-se com a autêntica culinária japonesa, onde cada prato é
+              uma obra de arte no seu prato.
+            </span>
+          </div>
+        </div>
+        <div class="image-overlay"></div>
+      </section>
+      <section class="r-section bg-black p-0">
+        <div class="r-container p-0 header">
+          <div class="element header-info">
+            <div class="icons">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="description">
+              <h3>Local</h3>
+              <span>Rua das Flores, 123 Cidade do Vale, SP</span>
+            </div>
+          </div>
+          <div class="element header-info">
+            <div class="icons">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="description">
+              <h3>Telefone</h3>
+              <span>62+ 7133 4400</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="r-section bg-black p-0">
+        <div
+          class="r-container py-4 w-100 justify-content-center"
+          style="color: white"
+        >
+          2023 © Onirigi / Ramen Wariror. Todos os direitos reservados
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
